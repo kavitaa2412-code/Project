@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System - Add Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="glow">Add New Student</h1>
+        <a href="dashboard.html" class="btn glow">Back to Dashboard</a>
+    </header>
+    <div class="container">
+        <form id="addStudentForm" class="form">
+            <div class="input-group">
+                <label for="studentName">Name:</label>
+                <input type="text" id="studentName" required>
+            </div>
+            <div class="input-group">
+                <label for="studentId">ID:</label>
+                <input type="text" id="studentId" required>
+            </div>
+            <div class="input-group">
+                <label for="studentEmail">Email:</label>
+                <input type="email" id="studentEmail" required>
+            </div>
+            <div class="input-group">
+                <label for="studentClass">Class:</label>
+                <input type="text" id="studentClass" required>
+            </div>
+            <button type="submit" class="btn glow">Add Student</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

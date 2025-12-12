@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System - Update Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="glow">Update Student</h1>
+        <a href="dashboard.html" class="btn glow">Back to Dashboard</a>
+    </header>
+    <div class="container">
+        <form id="updateStudentForm" class="form">
+            <div class="input-group">
+                <label for="updateStudentId">Student ID:</label>
+                <input type="text" id="updateStudentId" required>
+            </div>
+            <div class="input-group">
+                <label for="updateStudentName">Name:</label>
+                <input type="text" id="updateStudentName" required>
+            </div>
+            <div class="input-group">
+                <label for="updateStudentEmail">Email:</label>
+                <input type="email" id="updateStudentEmail" required>
+            </div>
+            <div class="input-group">
+                <label for="updateStudentClass">Class:</label>
+                <input type="text" id="updateStudentClass" required>
+            </div>
+            <button type="submit" class="btn glow">Update Student</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

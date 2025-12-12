@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System - Mark Attendance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="glow">Mark Attendance</h1>
+        <a href="dashboard.html" class="btn glow">Back to Dashboard</a>
+    </header>
+    <div class="container">
+        <form id="markAttendanceForm" class="form">
+            <div class="input-group">
+                <label for="attendanceDate">Date:</label>
+                <input type="date" id="attendanceDate" required>
+            </div>
+            <div id="studentList">
+                <!-- Student list will be loaded here -->
+            </div>
+            <button type="submit" class="btn glow">Mark Attendance</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
